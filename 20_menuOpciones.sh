@@ -24,6 +24,7 @@ do
     case $opcion in 
         1) 
             echo -e  "\nInstalar Postgres..."
+            tar -cvf shellCourse.tar *.sh
             sleep 3
             ;;
         2)
